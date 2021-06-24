@@ -30,7 +30,7 @@ public class WeatherAppTestCases {
        // options.addArguments("--disable-extensions"); // disabling extensions
        // options.addArguments("--disable-gpu"); // applicable to windows os only
         //options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
-		System.setProperty("webdriver.chrome.driver", "/home/fazu/Capstone_Project/chromedriver_linux64/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/home/eswar/Capstone_Project/chromedriver_linux64/chromedriver");
 		//driver = new ChromeDriver();
 		/*System.setProperty("webdriver.gecko.driver", "C:\\Users\\JABRU\\Desktop\\geckodriver.exe");
 		driver = new FirefoxDriver();*/
