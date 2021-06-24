@@ -40,7 +40,7 @@ public class WeatherAppTestCases {
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.get("http://localhost:5050/CapstoneDemo/");
+		driver.get("http://localhost:5050/weatherapp/");
 	}
 	@Test(priority=1)
 	public void verifyPageTitleTest()
